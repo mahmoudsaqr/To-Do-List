@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: auto;
+  width: 500px;
+  position: relative;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-style: groove;
+}
+.form .input {
+  width: 80%;
+  height: 30px;
+  font-size: 30px;
+}
+.form .add {
+  width: 20%;
+  background-color: #ff5335;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.tasks {
+  width: 100%;
+  color: aliceblue;
+  display: none;
+}
+.Total_tasks {
+  color: black;
+}
